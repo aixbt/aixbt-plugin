@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aixbt": {
+      "type": "http",
+      "url": "https://api.aixbt.tech/mcp"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "aixbt",
+  "version": "0.1.0",
+  "description": "AIXBT crypto market intelligence for projects, narratives, graded developments, and reports.",
+  "author": {
+    "name": "AIXBT",
+    "email": "support@aixbt.tech",
+    "url": "https://aixbt.tech"
+  },
+  "homepage": "https://docs.aixbt.tech/developers/mcp",
+  "keywords": ["crypto", "market-intelligence", "research", "trends"],
+  "interface": {
+    "displayName": "AIXBT",
+    "shortDescription": "Research crypto narratives and projects with live AIXBT intelligence.",
+    "longDescription": "Explore current crypto narratives, tracked projects, evidence-graded developments, attention history, audience clusters, and published AIXBT reports.",
+    "developerName": "AIXBT",
+    "category": "Finance",
+    "capabilities": ["Read"],
+    "websiteURL": "https://aixbt.tech",
+    "privacyPolicyURL": "https://docs.aixbt.tech/legal/privacy-policy",
+    "termsOfServiceURL": "https://docs.aixbt.tech/legal/terms-and-conditions",
+    "defaultPrompt": [
+      "What crypto narratives are trending right now?",
+      "Find the strongest recent crypto developments.",
+      "Research the latest evidence for a crypto project."
+    ],
+    "brandColor": "#7698A0",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json"
+}

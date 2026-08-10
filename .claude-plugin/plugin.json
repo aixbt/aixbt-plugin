@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "aixbt",
+  "displayName": "AIXBT",
+  "version": "0.1.0",
+  "description": "Research live crypto narratives and projects with evidence-grounded AIXBT market intelligence.",
+  "author": {
+    "name": "AIXBT",
+    "email": "support@aixbt.tech",
+    "url": "https://aixbt.tech"
+  },
+  "homepage": "https://docs.aixbt.tech/developers/mcp",
+  "repository": "https://github.com/aixbt/aixbt-plugin",
+  "license": "UNLICENSED",
+  "keywords": ["crypto", "market-intelligence", "research", "trends"],
+  "mcpServers": "./.mcp.json"
+}
