@@ -1,0 +1,12 @@
+interface:
+  display_name: "Research crypto with AIXBT"
+  short_description: "Research live crypto intel and narratives"
+  default_prompt: "Use $research-crypto-market to explain what's new in crypto."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "aixbt"
+      description: "AIXBT crypto intelligence"
+      transport: "streamable_http"
+      url: "https://api.aixbt.tech/mcp"
