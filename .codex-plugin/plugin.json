@@ -11,12 +11,13 @@
   "keywords": ["crypto", "market-intelligence", "research", "trends"],
   "interface": {
     "displayName": "AIXBT",
-    "shortDescription": "Research crypto narratives and projects with live AIXBT intelligence.",
+    "shortDescription": "Crypto intel and narratives",
     "longDescription": "Explore current crypto narratives, tracked projects, fresh developments, attention context, audience clusters, and published AIXBT reports.",
     "developerName": "AIXBT",
     "category": "Finance",
     "capabilities": ["Read"],
     "websiteURL": "https://aixbt.tech",
+    "supportURL": "https://docs.aixbt.tech/support/get-support",
     "privacyPolicyURL": "https://docs.aixbt.tech/legal/privacy-policy",
     "termsOfServiceURL": "https://docs.aixbt.tech/legal/terms-and-conditions",
     "defaultPrompt": [
