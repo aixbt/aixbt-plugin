@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "aixbt",
   "displayName": "AIXBT",
-  "version": "0.1.0",
-  "description": "Research live crypto narratives and projects with evidence-grounded AIXBT market intelligence.",
+  "version": "0.2.0",
+  "description": "Research crypto intel and narratives.",
   "author": {
     "name": "AIXBT",
     "email": "support@aixbt.tech",

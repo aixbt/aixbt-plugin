@@ -1,7 +1,7 @@
 {
   "name": "aixbt",
-  "version": "0.1.0",
-  "description": "AIXBT crypto market intelligence for projects, narratives, graded developments, and reports.",
+  "version": "0.2.0",
+  "description": "Research crypto intel and narratives.",
   "author": {
     "name": "AIXBT",
     "email": "support@aixbt.tech",
@@ -12,7 +12,7 @@
   "interface": {
     "displayName": "AIXBT",
     "shortDescription": "Research crypto narratives and projects with live AIXBT intelligence.",
-    "longDescription": "Explore current crypto narratives, tracked projects, evidence-graded developments, attention history, audience clusters, and published AIXBT reports.",
+    "longDescription": "Explore current crypto narratives, tracked projects, fresh developments, attention context, audience clusters, and published AIXBT reports.",
     "developerName": "AIXBT",
     "category": "Finance",
     "capabilities": ["Read"],
@@ -20,14 +20,15 @@
     "privacyPolicyURL": "https://docs.aixbt.tech/legal/privacy-policy",
     "termsOfServiceURL": "https://docs.aixbt.tech/legal/terms-and-conditions",
     "defaultPrompt": [
-      "What crypto narratives are trending right now?",
-      "Find the strongest recent crypto developments.",
-      "Research the latest evidence for a crypto project."
+      "What's new?",
+      "Give me intel flying under the radar.",
+      "What are the best AI plays?"
     ],
     "brandColor": "#7698A0",
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png"
   },
   "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
   "apps": "./.app.json"
 }

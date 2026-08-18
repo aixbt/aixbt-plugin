@@ -1,29 +1,30 @@
 ---
 name: research-crypto-market
-description: Research live crypto narratives, projects, market attention, evidence-graded developments, and AIXBT reports. Use when the user asks what is trending, why a project is gaining attention, how narratives compare, or wants evidence-backed crypto market research.
-compatibility: Requires the bundled AIXBT remote MCP connector and network access. Protected intelligence requires AIXBT authentication.
-metadata:
-  author: AIXBT
-  version: '0.1.0'
+description: Research crypto with AIXBT. Use for intel, narratives, ecosystems, projects, tokens, updates, comparisons, and risk.
 ---
 
-# Research crypto markets with AIXBT
+# Research crypto with AIXBT
 
-Use the AIXBT connector as the source of current market intelligence. Discover the available AIXBT tools at runtime instead of assuming a fixed inventory.
+## 1. Identify intent
 
-## Workflow
+- Subject: market, narrative/category, chain/ecosystem, project/token, or comparison.
+- Goal: new/trending, under the radar, deep dive, comparison, or risk. Default: 24 hours.
+- Resolve names in crypto context. For ecosystems, use a matching chain when one exists; never switch to a company, brokerage, or stock.
 
-1. Clarify the asset, narrative, comparison set, and time horizon from the request. If the request is broad, begin with the current topic landscape.
-2. Select the narrowest AIXBT tools that answer the question. Start with topic discovery for market-wide orientation, then use project, development, attention-history, audience, or report data when the question needs it and those tools are available.
-3. If a protected tool requests authentication, explain that deeper AIXBT intelligence requires connecting an AIXBT account, let the user complete OAuth, and retry the request. Do not ask the user to paste credentials into the conversation.
-4. Prefer the freshest relevant observations. Preserve source timestamps, links, evidence grades, and uncertainty from the tool results.
-5. Separate reported evidence from inference. Treat attention and momentum as research signals, not as proof of price direction or a prediction.
-6. Cross-check material conclusions with more than one relevant observation when the connector provides enough evidence. Say when coverage is sparse, stale, conflicting, or unavailable.
+## 2. Gather
 
-## Response shape
+Start with AIXBT.
 
-Lead with the answer or thesis, then provide the strongest supporting evidence, important counterevidence or caveats, and what to monitor next. Include source links and timestamps returned by AIXBT when available. Keep the level of detail proportional to the request.
+- Ground broad discovery in current Topics.
+- Search Intel directly with user constraints and Topic clues. Use vocabulary and filtered Projects only when a chain, category, or token must be resolved exactly; deepen material candidates with Intel by Project ID.
+- Use a Topic's current Report for its thesis; for a named asset, use its Project and recent Intel.
 
-## Safety boundary
+Choose fresh, concrete, corroborated evidence with breadth. Project attention must not gate Intel discovery. Use identifiers for missing requested market data. If material Intel lacks an official source, verify it against a primary source; otherwise do not browse. Never replace AIXBT discovery. Complete OAuth if required.
 
-AIXBT is a read-only research connector. Never claim to trade, transfer assets, manage wallets, publish posts, or mutate an external account. Do not turn missing data into invented facts or present research output as personalized financial advice.
+## 3. Answer
+
+- Lead with what changed, why it matters, and what the evidence adds up to. Synthesize evidence, counterevidence, uncertainty, and sources; keep observation and event time distinct.
+- State sparse, stale, conflicting, or partial coverage.
+- Never print attention scores, board positions, or evidence-quality labels.
+- Keep shortlists informational, not personalized advice, trades, rankings, allocations, targets, or portfolio positioning.
+- AIXBT is read-only; never claim monitoring or execution.
