@@ -1,11 +1,11 @@
 # AIXBT plugin
 
-Research live crypto narratives, projects, evidence-graded developments, attention history, audience clusters, and published reports with AIXBT.
+Research live crypto narratives, projects, developments, attention context, audience clusters, and published reports with AIXBT.
 
 The plugin bundles:
 
 - the read-only AIXBT remote MCP connector at `https://api.aixbt.tech/mcp`
-- a Claude research skill for evidence-grounded crypto market analysis
+- a research skill for concise crypto market analysis
 - shared AIXBT brand assets and metadata
 
 ## Use the connector
@@ -33,6 +33,7 @@ The connector provides market research only. It cannot trade, transfer assets, m
 ## Links
 
 - [MCP documentation](https://docs.aixbt.tech/developers/mcp)
+- [Research skill](https://docs.aixbt.tech/developers/skill)
 - [Privacy policy](https://docs.aixbt.tech/legal/privacy-policy)
 - [Terms and conditions](https://docs.aixbt.tech/legal/terms-and-conditions)
 - Support: support@aixbt.tech
