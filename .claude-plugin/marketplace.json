@@ -1,0 +1,17 @@
+{
+  "name": "aixbt",
+  "metadata": {
+    "description": "Official AIXBT plugin for crypto intel and narratives."
+  },
+  "owner": {
+    "name": "AIXBT",
+    "email": "support@aixbt.tech"
+  },
+  "plugins": [
+    {
+      "name": "aixbt",
+      "source": "./",
+      "description": "Research crypto intel and narratives."
+    }
+  ]
+}

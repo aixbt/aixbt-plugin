@@ -1,17 +1,16 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "aixbt",
-  "displayName": "AIXBT",
   "version": "0.3.0",
   "description": "Research crypto intel and narratives.",
   "author": {
     "name": "AIXBT",
-    "email": "support@aixbt.tech",
-    "url": "https://aixbt.tech"
+    "email": "support@aixbt.tech"
   },
-  "homepage": "https://docs.aixbt.tech/developers/mcp",
+  "homepage": "https://docs.aixbt.tech/grok-bot",
   "repository": "https://github.com/aixbt/aixbt-plugin",
   "license": "UNLICENSED",
   "keywords": ["crypto", "market-intelligence", "research", "trends"],
-  "mcpServers": "./.mcp.json"
+  "logo": "assets/logo.png",
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/"
 }
