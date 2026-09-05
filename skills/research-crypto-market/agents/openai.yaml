@@ -1,7 +1,7 @@
 interface:
   display_name: "Research crypto with AIXBT"
   short_description: "Research live crypto intel and narratives"
-  default_prompt: "Use $research-crypto-market to explain what's new in crypto."
+  default_prompt: "Use $research-crypto-market. What’s driving the crypto market today?"
 
 dependencies:
   tools:

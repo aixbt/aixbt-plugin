@@ -8,19 +8,31 @@ and [research skill](https://docs.aixbt.tech/developers/skill).
 ## Install
 
 - [ChatGPT setup](https://docs.aixbt.tech/chatgpt)
-- [Claude and Claude Code setup](https://docs.aixbt.tech/claude)
+- [Claude setup](https://docs.aixbt.tech/claude)
 - [Grok Bot setup](https://docs.aixbt.tech/grok-bot)
 - [Hermes Agent setup](https://docs.aixbt.tech/hermes)
 
+### Claude Code
+
+1. Run inside Claude Code:
+
+   ```text
+   /plugin marketplace add aixbt/aixbt-plugin
+   /plugin install aixbt@aixbt
+   ```
+
+2. Start a new session and use /mcp to authenticate AIXBT when prompted.
+3. Invoke /aixbt:research-crypto-market.
+
 ### Grok Build
 
-Run in your terminal:
+1. Run in your terminal:
 
-```sh
-grok plugin install aixbt/aixbt-plugin --trust
-```
+   ```sh
+   grok plugin install aixbt/aixbt-plugin --trust
+   ```
 
-Start a new session and authenticate AIXBT from `/mcps` when needed. This installs into Grok Build, the coding CLI.
+2. Start a new session and authenticate AIXBT from /mcps when prompted.
 
 ### Cursor marketplace
 

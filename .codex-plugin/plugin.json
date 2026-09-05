@@ -21,9 +21,9 @@
     "privacyPolicyURL": "https://docs.aixbt.tech/legal/privacy-policy",
     "termsOfServiceURL": "https://docs.aixbt.tech/legal/terms-and-conditions",
     "defaultPrompt": [
-      "What's new?",
-      "Give me intel flying under the radar.",
-      "What are the best AI plays?"
+      "What’s driving the crypto market today?",
+      "What important crypto intel are being overlooked?",
+      "Which AI-related crypto projects are gaining attention, and why?"
     ],
     "brandColor": "#7698A0",
     "composerIcon": "./assets/icon.png",
